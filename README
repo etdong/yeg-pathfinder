@@ -1,0 +1,13 @@
+Name: Eric Dong
+SID: 1703475
+CCID: etdong
+AnonID: 1000313366
+CMPUT 275, Winter 2023
+ 
+Assessment: Assignment Part 2
+
+Running instructions: After cloning, cd into 'assignment_part2-h0mygod/soln/server'. If you are using a VM such as Multipass, make sure you have Xlaunch set up and running on your primary system and complete setup steps for your specific VM. From here, you can type 'make' into terminal to build the solution. We are going to need two terminals to run this program, so open another terminal in advance. cd back into 'assignment_part2-h0mygod/soln' and type "./server/server" into your first terminal. Then type 'python3 client/client.py' into your second terminal. This will open a window either in Xlaunch or the machine. 
+To use the pathfinding program, click anywhere on the map to set a starting point and click somewhere else to set an endpoint. The program will trace out a path from your points on the map. The 'client' terminal should also print out the closest-coordinate approximation of your start and end points it sends to the server program. It should then print what it recieved from the server: the latitude and longitude of all the coordinates from your selected start to your selected end, followed by an 'E' to mark the end of the path. If there is no path, then it will simply only output an 'E'.
+Type 'make clean' into either terminal to remove all the created files.
+
+Acknowledgements: Guidance recieved from assignment pdf and some lecture slides.
